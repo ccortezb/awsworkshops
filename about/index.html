@@ -7,16 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   
-  <link rel="shortcut icon" href="/awsworkshops/img/favicon.ico">
-  <title>CC Workshops for AWS</title>
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>About - CC Workshops for AWS</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="/awsworkshops/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="/awsworkshops/css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   
-  <script src="/awsworkshops/js/jquery-2.1.1.min.js" defer></script>
-  <script src="/awsworkshops/js/modernizr-2.8.3.min.js" defer></script>
+  <script>
+    // Current page data
+    var mkdocs_page_name = "About";
+    var mkdocs_page_input_path = "about.md";
+    var mkdocs_page_url = "/awsworkshops/about/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script> 
   
@@ -29,9 +36,9 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="/awsworkshops/." class="icon icon-home"> CC Workshops for AWS</a>
+        <a href=".." class="icon icon-home"> CC Workshops for AWS</a>
         <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="/awsworkshops/search.html" method="get">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
@@ -43,12 +50,26 @@
           
             <li class="toctree-l1">
 		
-    <a class="" href="/awsworkshops/.">Home</a>
+    <a class="" href="..">Home</a>
 	    </li>
           
-            <li class="toctree-l1">
+            <li class="toctree-l1 current">
 		
-    <a class="" href="/awsworkshops/about/">About</a>
+    <a class="current" href="./">About</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#sobre-mi">Sobre Mí</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#aws-sagemaker">AWS Sagemaker</a></li>
+        
+            <li><a class="toctree-l3" href="#another">Another</a></li>
+        
+        </ul>
+    
+
+    </ul>
 	    </li>
           
         </ul>
@@ -61,7 +82,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="/awsworkshops/.">CC Workshops for AWS</a>
+        <a href="..">CC Workshops for AWS</a>
       </nav>
 
       
@@ -69,10 +90,15 @@
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href="/awsworkshops/.">Docs</a> &raquo;</li>
+    <li><a href="..">Docs</a> &raquo;</li>
     
+      
     
+    <li>About</li>
     <li class="wy-breadcrumbs-aside">
+      
+        <a href="http://github.com/ccortezb/awsworkshops/edit/master/docs/about.md"
+          class="icon icon-github"> Edit on GitHub</a>
       
     </li>
   </ul>
@@ -81,15 +107,45 @@
           <div role="main">
             <div class="section">
               
+                <h2 id="sobre-mi">Sobre Mí</h2>
+<p>Yo soy Carlos Cortez, 
+Bienvenido a ser un arquitecto en AWS</p>
+<p>Ingresa a los siguientes workshops guiados:</p>
+<pre><code>$ echo &quot;Its time to be an AWS Architect&quot; 
+</code></pre>
 
-  <h1 id="404-page-not-found">404</h1>
-
-  <p><strong>Page not found</strong></p>
-
-
+<p>Prepara tu PC/Mac Local para poder realizar los workshops:</p>
+<blockquote>
+<p>pip install awscli s3cmd saws 
+yum install docker
+</p>
+</blockquote>
+<h3 id="aws-sagemaker">AWS Sagemaker</h3>
+<p>And now this:</p>
+<ul>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ul>
+<h4 id="aws-eks">AWS EKS</h4>
+<h4 id="_1"></h4>
+<h3 id="another">Another</h3>
+<p><a href="https://aws.com">a link</a></p>
+<p>Otras opciones.?</p>
+<p>Can we now have <code>the build</code>?</p>
+<p>NOW!</p>
+<p>Not gonna work, is it?</p>
+              
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -115,12 +171,14 @@
           <a href="http://github.com/ccortezb/awsworkshops/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
       
     </span>
 </div>
-    <script>var base_url = '/awsworkshops';</script>
-    <script src="/awsworkshops/js/theme.js" defer></script>
-      <script src="/awsworkshops/search/main.js" defer></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
